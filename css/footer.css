@@ -1,0 +1,36 @@
+footer {
+  background: #0f0f0f;
+}
+
+.cont-footer {
+}
+.last1 h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.last1 p {
+  margin: 40px 900px;
+  width: 120px;
+  height: 0px;
+  left: 900px;
+  top: 3701px;
+  border: 1px solid #ffffff;
+}
+.last2 ul {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.last2 img {
+  width: 255px;
+  height: 94px;
+  margin-bottom: 80px;
+}

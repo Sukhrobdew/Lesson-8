@@ -1,0 +1,282 @@
+@import "./header.css";
+@import "./common.css";
+@import "./footer.css";
+
+main {
+  background-color: black;
+}
+
+.shadow {
+  max-width: 1920px;
+  height: 810px;
+  background-image: url(../images/box\ 1\ bgc.png);
+}
+.box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  border: 3px solid #ffffff;
+}
+.foo h1 {
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.foo p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.box {
+  padding: 160px 800px 80px;
+}
+.box-2 {
+  margin-left: 595px;
+  max-width: 730px;
+  height: 96px;
+}
+.box-2 p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* section2 */
+
+.cont {
+  display: flex;
+}
+
+.yil h1 {
+  margin: 93px 306.46px 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.yil p {
+  margin: 0 424.62px 50px;
+  width: 110.77px;
+  height: 0px;
+  left: 424.62px;
+  top: 1116px;
+  border: 1px solid #ffffff;
+}
+.rasm ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.rasm li {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 325px;
+  background: #191b1c;
+}
+.rasm img {
+  width: 198.46px;
+  height: 214px;
+  left: 381.23px;
+  top: 1221px;
+}
+.text ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text li {
+  margin: 25px 0 100px;
+  width: 240px;
+}
+
+.text p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.odam {
+  width: 960px;
+  height: 730px;
+  background-image: url(../images/odam.png);
+}
+.collection {
+  display: flex;
+  justify-content: center;
+}
+
+.new h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  margin-top: 484px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.new p {
+  margin: 0 415px 41px;
+  width: 130.91px;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+.new button {
+  background-color: transparent;
+  font-family: "PT Sans";
+  font-style: normal;
+  margin-left: 420px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 15px;
+  border: 2px solid white;
+  color: #ffffff;
+}
+
+/* section 3*/
+
+.cont3 {
+  display: flex;
+}
+
+.rasm-3 {
+  margin-top: -10px;
+}
+.rasm-4 h1 {
+  margin: 100px 332px 40px 252px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.rasm-4 .stick {
+  width: 120px;
+  height: 0px;
+  margin-left: 380px;
+  border: 1px solid #ffffff;
+}
+.rasm-4 p {
+  font-family: "PT Sans";
+  font-style: normal;
+  width: 471px;
+  height: 173px;
+  margin: 40px 284px 70px 205px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+}
+.rasm-4 button {
+  font-family: "PT Sans";
+  font-style: normal;
+  margin-left: 285px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: black;
+  border: 2px solid white;
+  color: #ffffff;
+}
+
+/* section 4 */
+
+.cont4 {
+  margin: 0 auto;
+  margin-top: 120px;
+  padding-bottom: 100px;
+  max-width: 1110px;
+}
+.card h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card p {
+  margin: 40px 500px 81px;
+  width: 120px;
+  height: 0px;
+  left: 900px;
+  top: 2472px;
+  border: 1px solid #ffffff;
+}
+
+.card1 ul {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+.card1 li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  height: 325px;
+  left: 405px;
+  top: 2553px;
+  background: #191b1c;
+}
+.card1 img {
+  width: 215px;
+  height: 214px;
+  left: 428px;
+  top: 2608px;
+}
+
+.card2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.card2 li {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 260px;
+}
+.card2 p {
+    
+    padding: 5px 0;
+    color: white;
+}

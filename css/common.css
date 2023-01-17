@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family:Post No Bills Jaffna ;
+    src: url(../fonts/PostNoBillsJaffna-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(196, 218, 237);
+}
